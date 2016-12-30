@@ -1,0 +1,98 @@
+<div class="container">
+  <div class="row flex-items-md-middle flex-items-md-center flex-items-lg-middle flex-items-lg-center">
+    <div class="col-md-6">
+      <img src="https://viawolf.com:1235/assets/auth/logo.png" alt="" class="logotype mx-auto d-block">
+
+      <p>
+        <small class="text-xs-center d-block">For verification, enter Email address or Mobile Number</small>
+      </p>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email Address">
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="form-group">
+              <select name="" class="form-control">
+                <option value="">+1</option>
+              </select>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-group">
+            <input type="phone" class="form-control" placeholder="Mobile Number">
+          </div>
+        </div>
+      </div>
+
+      <p>
+        <small class="text-xs-center d-block">Please enter Account Information</small>
+      </p>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="City">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <select name="" class="form-control">
+              <option value="">State</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <select name="" class="form-control">
+              <option value="">Proffesional Title</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <select name="" class="form-control" disabled>
+              <option value="">Speciality</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        <small class="text-xs-center text-muted d-block">
+          By clicking Register button you accept <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a>
+        </small>
+      </p>
+
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <button type="button" class="btn btn-primary btn-block text-uppercase">register</button>
+          <button type="button" class="btn btn-link btn-block" [routerLink]="['', 'auth', 'login']">Back to Log In</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

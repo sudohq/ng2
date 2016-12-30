@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row flex-items-md-middle flex-items-md-center flex-items-lg-middle flex-items-lg-center">
+    <div class="col-xs">
+      <img src="https://viawolf.com:1235/assets/auth/logo.png" alt="" class="logotype mx-auto d-block">
+      <p class="text-xs-center text-primary">Please Enter your Account Information</p>
+      <div class="form-group">
+        <input type="email" class="form-control" placeholder="Email Address or Mobile Number">
+        <small class="form-text text-muted text-xs-center">
+            For mobile numbers outside the United States and Canada, enter the number in international format (starting with +).
+        </small>
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" placeholder="Password">
+      </div>
+      <div class="form-check">
+       <label class="form-check-label text-muted">
+         <input type="checkbox" class="form-check-input" value="">
+         Remember me
+       </label>
+       <a href="" class="float-xs-right" [routerLink]="['', 'auth', 'remind-password']">Forgot Password?</a>
+     </div>
+     <div class="form-group">
+       <button type="button" class="btn btn-primary btn-block text-uppercase">log in</button>
+     </div>
+     <p>
+       <small class="text-xs-center text-muted d-block">
+          Don't have an account? <a [routerLink]="['', 'auth', 'registration']">Register!</a>
+       </small>
+     </p>
+    </div>
+  </div>
+</div>

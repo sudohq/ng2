@@ -1,0 +1,15 @@
+>>> .logotype  {
+  width: 140px;
+  margin: 40px 0;
+}
+
+
+>>> .container > .row {
+  height: 100vh;
+}
+
+>>> @media (min-width: 768px) {
+  .col-xs {
+    max-width: 310px;
+  }
+}
