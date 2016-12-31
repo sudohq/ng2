@@ -7,7 +7,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegistrationComponent } from './auth/registration/registration.component';
 import { RemindPasswordComponent } from './auth/remind-password/remind-password.component';
 
-import { authRoutes } from './auth-routes';
+import { authRoutes } from './auth.routes';
 
 @NgModule({
   imports: [

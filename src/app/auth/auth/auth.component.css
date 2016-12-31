@@ -10,6 +10,6 @@
 
 >>> @media (min-width: 768px) {
   .col-xs {
-    max-width: 310px;
+    max-width: 340px;
   }
 }
